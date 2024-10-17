@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
+// The component represents an individual task in the to-do list
+// It receives 'task', 'toggleComplete', 'deleteTodo', 'editTodo' as props
 
 export const Todo = ({task, toggleComplete, deleteTodo, editTodo}) => {
     return (
