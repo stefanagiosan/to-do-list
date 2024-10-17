@@ -36,8 +36,12 @@ export const TodoWrapper = () => {
                     todo.isEditing ? (
                         <EditToDoForm editTodo={editTask} task={todo}/>
                         ) : (
-                            <Todo task={todo} key={index}
-                                  toggleComplete={toggleComplete} deleteTodo={deleteTodo} editTodo={editTodo} />
+                            <Todo task={todo}
+                                  key={index}
+                                  toggleComplete={toggleComplete}
+                                  deleteTodo={deleteTodo}
+                                  editTodo={editTodo}
+                            />
                         )
 
                 ))
